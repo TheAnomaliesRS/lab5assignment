@@ -1,0 +1,31 @@
+@import "normalize.css";
+
+@media screen and (min-width: 1000px) {
+  .grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+    background-color: rgb(67, 110, 58);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .grid {
+    display: inline-grid;
+    grid-template-columns: auto;
+    padding: 5px;
+    background-color: rgb(67, 110, 58);
+  }
+}
+
+.grid-item {
+  background-color: rgb(204, 203, 153);
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: end;
+}
+
+h2 {
+  text-align: center;
+}
